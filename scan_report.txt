@@ -1,0 +1,16 @@
+AUTOMATED WEB SECURITY SCAN REPORT
+========================================
+Requested URL: http://127.0.0.1:8000
+Final URL: http://127.0.0.1:8000/
+HTTP status: 200
+Scan time: 2026-10-21T21:55:15.444007
+
+REVIEW: Final page uses HTTP.
+PASS: Content-Security-Policy is present.
+REVIEW: Strict-Transport-Security is missing. Helps browsers enforce HTTPS.
+PASS: X-Content-Type-Options is present.
+REVIEW: X-Frame-Options is missing. Helps protect against clickjacking.
+REVIEW: Referrer-Policy is missing. Controls referrer information.
+REVIEW: CORS allows any origin; review whether this is appropriate for the resource.
+
+Limitations: Basic configuration checks only. Findings require manual interpretation.
